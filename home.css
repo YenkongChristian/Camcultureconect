@@ -1,6 +1,4 @@
-""/* =============================
-   Global Styles
-============================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -126,7 +124,6 @@ nav a:hover::after {
     padding: 60px 40px;
     text-align: right;
     max-width: 2000px;
-    margin: ;
     color: #4a593b;
 }
 
@@ -169,7 +166,7 @@ nav a:hover::after {
     .nav-right {
         margin-top: 10px;
     }
-}""
+}
 
 body {
     font-family: Arial, sans-serif;
