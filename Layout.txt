@@ -1,0 +1,47 @@
+-------------------------------------------------------
+|                    Visit Northwest                   |
+|               Your Guide to Culture and Adventure    |
+-------------------------------------------------------
+| [Logo]    [Home] [Attractions] [Accommodation]      |
+|           [Experiences] [Cultural Info] [Contact]   |
+-------------------------------------------------------
+|                Search Bar []          |
+|                     [Search Button]                  |
+-------------------------------------------------------
+|                  Featured Attractions                 |
+| ----------------------------------------------------- |
+| |  [Image of Attraction 1]  |  [Image of Attraction 2] |
+| |  Name of Attraction 1      |  Name of Attraction 2   |
+| |  Short Description         |  Short Description      |
+| ----------------------------------------------------- |
+| ----------------------------------------------------- |
+| |  [Image of Attraction 3]  |  [Image of Attraction 4] |
+| |  Name of Attraction 3      |  Name of Attraction 4   |
+| |  Short Description         |  Short Description      |
+| ----------------------------------------------------- |
+-------------------------------------------------------
+|                Explore Local Experiences              |
+| ----------------------------------------------------- |
+| |  [Image of Experience 1]  |  [Image of Experience 2] |
+| |  Name of Experience 1      |  Name of Experience 2   |
+| |  Short Description         |  Short Description      |
+| ----------------------------------------------------- |
+-------------------------------------------------------
+|                 Upcoming Events & Festivals          |
+| ----------------------------------------------------- |
+| | Event Name 1 - Date       | Event Name 2 - Date     |
+| ----------------------------------------------------- |
+| | Event Name 3 - Date       | Event Name 4 - Date     |
+| ----------------------------------------------------- |
+-------------------------------------------------------
+|                   User Reviews Section                |
+| ----------------------------------------------------- |
+| "Amazing experience at [Attraction]! - User A"       |
+| "The local cuisine is a must-try! - User B"          |
+-------------------------------------------------------
+|                  Interactive Map Section              |
+| [Interactive Map Here]                               |
+-------------------------------------------------------
+|                     Footer Section                    |
+| ©2023 Visit Northwest | Privacy Policy | Terms of Use   |
+-------------------------------------------------------

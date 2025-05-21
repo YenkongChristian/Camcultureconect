@@ -1,0 +1,245 @@
+""/* =============================
+   Global Styles
+============================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f0;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* =============================
+   Header Styles
+============================= */
+header {
+    background-color: #4a593b;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+nav a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #a8d5ba;
+    transition: width 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.logo {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.nav-right input {
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.nav-right input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* =============================
+   Hero Section
+============================= */
+.hero {
+    height: 500px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/04/15/07/58/sunset-7133867_640.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-overlay h1 {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    animation: slideIn 1s ease-out forwards;
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+/* =============================
+   Content Section
+============================= */
+.content {
+    padding: 60px 40px;
+    text-align: right;
+    max-width: 2000px;
+    margin: ;
+    color: #4a593b;
+}
+
+.content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    color: #2f3e29;
+}
+
+.content p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+/* =============================
+   Responsive Styles
+============================= */
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+    }
+    .hero {
+        height: 300px;
+    }
+    .content {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-right {
+        margin-top: 10px;
+    }
+}""
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .related-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .related-articles h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .articles-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .article-card {
+    flex: 1 1 45%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .article-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .article-card h3 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+  }
+  
+  .article-card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+footer {
+    background-color: black;
+    color: #2F4F2F;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin: 8px 0;
+}
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #388E3C;
+}
+footer .divider {
+    color: #4CAF50;
+}
